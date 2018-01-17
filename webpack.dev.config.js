@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    "bittion-web": path.resolve(__dirname, 'src/js/pages/index.js')
+    "react-scaffold": path.resolve(__dirname, 'src/js/pages/index.js')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

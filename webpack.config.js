@@ -17,7 +17,7 @@ module.exports = (env) => {
   return {
 
     entry: {
-      "bittion-web": path.resolve(__dirname, 'src/js/containers/home.js'),
+      "react-scaffold": path.resolve(__dirname, 'src/js/pages/index.js'),
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
